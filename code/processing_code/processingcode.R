@@ -95,6 +95,7 @@ regional_sub_newdx$age45t54_age55p_rateratio<-round(regional_sub_newdx$Age55p_Ra
 
 
 ## ---- savedata --------
+#I wasnt able to run the below code, the error i got was "Error in match.names(clabs,names(XI) names do not match previous names"-BG)
 allnewdx<-rbind(national_sub_newdx,regional_sub_newdx)
 save_data_location <- here::here("data","processed_data","allnewdx.rds")
 saveRDS(allnewdx, file = save_data_location)

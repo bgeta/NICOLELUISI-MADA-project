@@ -1,0 +1,149 @@
+---
+title: Project Review 
+author: Beth Getachew
+date: "`r file.mtime(knitr::current_input())`"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+    # Overview
+
+    Title of project:Trends in New HIV Diagnosis in the US, 2008-2020
+
+    Name of project author(s):Nicole Luisi
+
+    Name of project reviewer:Betelihem Getachew
+
+    # Specific project content evaluation
+
+    ## Background, Context and Motivation
+
+    ### Feedback and Comments
+
+    The summary and background section is sufficienty complete. Adequate literature review is conducted to provide backgournd on the state of HIV diagnosis trends and provides new HIV diagnosis rates results for 2022. 
+
+    ### Summary assessment (PICK ONE, DELETE THE OTHERS)
+    * strong contextualization and motivation
+
+
+    ## Question description
+
+    ### Feedback and Comments
+    Perhaps a little bit more description on what implications this study has would be great. Also is this study filling any knowledge gap? Is data on new HIV diagnosis trends in the US not avaialble elsewhere? maybe emphasis on what this analysis adds to what already exisits out there. what is the strenght of this study?
+
+    ### Summary assessment
+    * question/hypotheses somewhat explained
+
+
+
+    ## Data description
+
+    ### Feedback and Comments
+
+    The data source is well described. There wasnt a code book attached but the variables seem self explanatory, I would still recommend a codebook. I wasnt familiar with google trends so perhaps a line describing how good trends gets it data would be helfpul.
+
+    ### Summary assessment
+    * source and overall structure of data well explained
+
+
+    ## Data wrangling and exploratory analysis
+    How well is the data cleaned/processed and explored? Are all steps reasonable and well explained? Are alternatives discussed and considered? Are meaningful exploratory results shown (e.g. in the supplementary materials)?
+
+    ### Feedback and Comments
+    Adequate datqa cleaning and processing is conducted. Many descriptive tables and figures are produced that align with the research objectives. The tables can use a bit of editing. For example, the variable names are all distorted making it very difficult to read. I think these results were from the joinpoint package...
+    ### Summary assessment
+    * essentially no weaknesses in wrangling and exploratory component
+
+
+
+    ## Appropriateness of Analysis
+    ### Feedback and Comments
+    I am not familiar with the joinpoints analysis package, perhaps one or two sentences of how and why this analysis package was used would be helpful. I would also recommend to move table 2 and 3 to supplementary tables.Your figures are on point in showing your results. 
+
+    ### Summary assessment
+    * strong and reasonable analysis
+
+    ## Presentation
+    How well are results presented? Are tables and figures easy to read and understand? Are the main figures/tables publication level quality? 
+
+    ### Feedback and Comments
+
+    The figure were easy to understand, however the tables presented in the manuscript were difficult to understand because either the variable names are distored or the tables are just too long (table 2/3 span across 16 pages). I would suggest moving these to maybe as supplement tables... 
+
+    ### Summary assessment
+    * results are presented ok, with room for improvement
+
+
+
+    ## Discussion/Conclusions
+    Are the study findings properly discussed? Are strengths and limitations acknowledged? Are findings interpreted properly?
+
+    ### Feedback and Comments
+
+    I think the study findings are properly discussed.I am not so sure about the google trends data and i think it should have been included in the limitations section as its not clear if google trend picks unique searches as one experiencing new diagnosis can google search multiple times, as well as family member with out an HIV diagnosis can do the same. 
+
+    ### Summary assessment
+    * strong, complete and clear discussion
+
+
+    ## Further comments
+
+    Great work, I espcially enjoyed your figures!
+
+
+
+    # Overall project content evaluation
+    Evaluate overall features of the project  by filling in the sections below.
+
+
+    ## Structure
+    ### Feedback and Comments
+
+    Folders/subfolders and files are well placed. Readme files are updated. I was able to follow the instructions in the read me files to run the R codes for the different stages . 
+
+    ### Summary assessment
+    * well structured
+
+
+    ## Documentation 
+
+
+    ### Feedback and Comments
+
+    Line item codes are explained but not sufficiently. There wasnt justification or rationalle for running each line of code for the most part except for those in the processing R code file. 
+
+    ### Summary assessment
+    * decently documented with some gaps
+
+
+
+
+    ## Reproducibility
+    Are all results fully reproducible? Is documentation provided which clearly explains how to reproduce things, and does it work without the need for any manual intervention? Are you able to re-run the whole analysis without having to do manual interventions/edits?
+
+    ### Feedback and Comments
+
+    Overall it was reproducable. There were some issues in the processsing code, While trying to run the code to save data allnewdx, I did run into an issue  the error I got was “Error in match.names (Clabs, names(xi) names do not match previous name. However the rest of the codes were reproducable. But it didnt look like allnewdx was used again. 
+
+
+    ### Summary assessment
+    * fully reproducible without issues
+
+
+    ## Thoroughness
+    ### Feedback and Comments
+
+    I thought it was thorough with multiple figures and tables exhausted to show trends. My only challange was that I was not familiar with joinpoints and so the codes were not too clear for me.  
+
+    ### Summary assessment
+    * strong level of thorougness
+
+
+    ## Further comments
+    I think the analysis is in great shape.Just minor edits and revisions should get it to the final stage. 
+
+
+
